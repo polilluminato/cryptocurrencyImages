@@ -1,6 +1,6 @@
 # cryptocoinImages
 
-Download all the images from [CoinList](http://google.com) public API on [Cryptocompare.com](https://www.cryptocompare.com/) in just one js file.
+Download all the images from [CoinList](https://www.cryptocompare.com/api/#-api-data-coinlist) public API on [Cryptocompare.com](https://www.cryptocompare.com/) in just one js file.
 
 ## Structure
 
