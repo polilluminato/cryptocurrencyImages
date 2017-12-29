@@ -51,7 +51,6 @@ fs.readFile('coinlist.json', 'utf8', function (err, data) {
     async.each(arrayCurrencies,
       function(item, callback){
         
-        console.log("Download " + item.url);
         //Save the cryptocurrency's image in the images dir
         exec('/usr/bin/wget -c '+item.url +' -O ./images/'+item.symbol+'.'+item.ext);
         
