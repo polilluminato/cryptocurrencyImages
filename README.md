@@ -11,3 +11,10 @@ Download all the images from [CoinList](http://google.com) public API on [Crypto
 - Result
     - [organized-cryptocurrency.json](organized-cryptocurrency.json): file with the organized info about cryptocurrency images;
     - [images](images): directory with all images.
+
+## Run 
+
+To run the code all you have to do is to clone the repo, install the dependencies: [sync-exec](https://github.com/gvarsanyi/sync-exec/) and [async](https://github.com/caolan/async) and run it with
+```
+nodejs app.js
+```
